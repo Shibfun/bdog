@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BDOG Token - Shibarium Memecoin</title>
+    <link rel="icon" type="image/png" href="https://shibarium.fun/images/favicon.png">
+    <style>
+        /* Reset default styles and set up flexbox layout */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern, clean font stack */
+            background-color: #f4f4f4;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            color: #333;
+            line-height: 1.6; /* Improved readability */
+        }
+
+        header {
+            background-color: #ff0000;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        header img {
+            max-width: 40%; /* Further reduced logo size for balance */
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .container {
+            max-width: 900px; /* Slightly wider for better content display */
+            margin: 30px auto;
+            padding: 30px;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            flex: 1 0 auto; /* Grow but not shrink below content */
+        }
+
+        h1, h2, h3 {
+            font-weight: 600; /* Moderate boldness for headings */
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            font-size: 2.5em; /* Larger header for impact */
+        }
+
+        h2 {
+            font-size: 2em;
+            color: #ff0000; /* Match theme color */
+        }
+
+        h3 {
+            font-size: 1.5em;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 1.1em; /* Slightly larger for readability */
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style-type: none; /* Remove default bullets */
+            text-align: left;
+            margin-left: 20px;
+        }
+
+        ul li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 10px;
+        }
+
+        ul li:before {
+            content: "🐶"; /* Dog emoji as a custom bullet */
+            position: absolute;
+            left: 0;
+            color: #ff0000;
+        }
+
+        .buy-button {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #ff0000;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease; /* Smooth hover transition */
+            margin-top: 20px;
+        }
+
+        .buy-button:hover {
+            background-color: #cc0000;
+        }
+
+        footer {
+            background-color: #ff0000;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            margin-top: auto; /* Push to bottom */
+            width: 100%;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header img {
+                max-width: 70%; /* Larger logo on mobile for visibility */
+            }
+            .container {
+                margin: 15px;
+                padding: 20px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            h2 {
+                font-size: 1.5em;
+            }
+            h3 {
+                font-size: 1.2em;
+            }
+            p {
+                font-size: 1em;
+            }
+            .buy-button {
+                padding: 10px 20px;
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://pbs.twimg.com/media/G0EkwFSbQAADBAg.png?format=jpg&name=small" alt="BDOG Logo" />
+        <h1>BDOG Token</h1>
+        <p>#Shibarium #ShibariumMemecoin</p>
+    </header>
+
+    <div class="container">
+        <h2>Welcome to BDOG Token</h2>
+        <p>A fun and exciting memecoin built on the Shibarium network! Join the community and dive into the world of $BDOG for a playful yet rewarding experience.</p>
+
+        <div class="token-details">
+            <h3>Token Details</h3>
+            <p><strong>Token Name:</strong> BDOG (BDOG)</p>
+            <p><strong>Contract Address:</strong> <a href="https://www.shibariumscan.io/token/0xfB43C1918CA670d0Ca00e04541695abaDbC0F4d8" target="_blank">0xfB43C1918CA670d0Ca00e04541695abaDbC0F4d8</a></p>
+            <p><strong>Features:</strong></p>
+            <ul>
+                <li>4% buy/sell fees (2% liquidity, 2% WBONE rewards)</li>
+                <li>Auto liquidity via Shibaswap V1</li>
+                <li>WBONE (BONE) dividends for holders (>5.25M BDOG)</li>
+            </ul>
+            <p><strong>Disclaimer:</strong> Just for fun! This is a memecoin and not financial advice.</p>
+        </div>
+
+        <a href="https://t.co/fWViQFNQSB" class="buy-button" target="_blank">Buy BDOG Now</a>
+
+        <!-- Additional content for testing -->
+    </div>
+
+    <footer>
+        <p>&copy; 2025 BDOG Token. All rights reserved. #Shibarium #ShibariumMemecoin</p>
+    </footer>
+</body>
+</html>
